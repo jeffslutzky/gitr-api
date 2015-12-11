@@ -26,6 +26,7 @@ Rails.application.routes.draw do
       resources :projects
       resources :milestones
       resources :issues
+      resources :commits
     end
   end
   # The priority is based upon order of creation: first created -> highest priority.
