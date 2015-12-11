@@ -25,6 +25,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :projects
       resources :milestones
+      resources :issues
     end
   end
   # The priority is based upon order of creation: first created -> highest priority.

@@ -7,6 +7,7 @@ class ProjectSerializer < ActiveModel::Serializer
   def attributes
     attributes = super
     attributes[:milestones] = object.milestones.try(:as_json)
+    attributes[:issues] = object.issues.try(:as_json)
     attributes
   end
 end
