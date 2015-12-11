@@ -20,9 +20,9 @@ gem 'factory_girl_rails', '~> 4.0'
 gem 'github_api'
 gem 'httparty'
 gem 'sidekiq'
-# gem 'rails-api'
-# gem 'rack-cors', :require => 'rack/cors'
-# gem 'active_model_serializers'
+gem 'rails-api'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'active_model_serializers'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
